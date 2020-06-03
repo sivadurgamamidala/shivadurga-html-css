@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my web page</title>
+    <style>
+        div{
+            display: none;
+            text-align: center;
+            font-size: 24px;
+            color: purple;
+        }
+        button{
+            background-color: green;
+            color: white;
+            font-size: 24px;
+            width: 200px;
+            height: 75px;
+        }
+        button:hover{
+            background-color: orange;
+        }
+    </style>
+    <script>
+        function function1(){
+            return document.getElementById('demo').style.display = "block";
+        }
+    </script>
+</head>
+<body>
+    <button onclick="function1()">place the cursor over on me</button>
+    <div id="demo">
+        hello this is shiva
+    </div>
+</body>
+</html>
