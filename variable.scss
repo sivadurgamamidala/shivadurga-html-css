@@ -1,0 +1,12 @@
+$color:green;
+$x:center;
+$y:20px;
+ol{
+    font-size:$y;
+    color:$color;
+}
+ul{
+    font-size: 20px;
+    color: $color;
+    text-align: $x;
+}
