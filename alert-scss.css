@@ -1,0 +1,26 @@
+.error, .warning, .success {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.success {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.warning {
+  background-color: #f8c76c;
+  color: darkorange;
+}
+
+.error {
+  background-color: #f85d5d;
+  color: red;
+}
+
+/*# sourceMappingURL=alert-scss.css.map */
