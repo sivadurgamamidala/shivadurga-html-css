@@ -36,7 +36,8 @@
 .nav .container ul li{
     display: inline;
 }
-fa-home,.nav .container ul li a{
+/* fa-home, */
+.nav .container ul li a{
     color:white;
     float: left;
     text-decoration: none;
@@ -47,8 +48,9 @@ fa-home,.nav .container ul li a{
     text-align: center;
 }
 .fa-home{
-    font-size: 20px !important;
+    font-size: 25px !important;
 }
+
 .nav .container li a:hover{
     color: teal;
     background-color: white;
