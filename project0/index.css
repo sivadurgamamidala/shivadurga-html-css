@@ -90,7 +90,13 @@ body{
 .card{
     box-shadow: 2px 3px 8px 4px #d5d1d5;
 }
-.edu-size{
+.card-gap{
+    margin-top: 10px;
+}
+.card-height .card-body .form-group{
+    margin-bottom: 9px !important;
+}
+.edu-size,.intern-size,.project-size{
     font-size: 26px;
 }
 .Educational form table tr th,.Educational form table tr td{
@@ -115,6 +121,9 @@ body{
 }
 .cgpa{
     width: 107px;
+}
+ul li a{
+    text-decoration: none !important;
 }
 .fa-arrow-circle-o-up{
     position: fixed;
