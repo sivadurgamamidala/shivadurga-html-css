@@ -56,23 +56,11 @@ body{
     color: teal;
     background-color: white;
 }
-.profile-pic{
-    width: 300px;
-    height: 285px;
-}
 .section{
     margin-top: 10px;
 }
 .col-4{
     max-width: 500px;
-}
-.col-4 .profile-pic{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 2px solid #958d8d;
-    box-shadow: 2px 3px 8px 4px #d5d1d5;
-    border-radius: 22%;
 }
 .card-title{
     text-transform: uppercase;
@@ -95,7 +83,7 @@ body{
 .card-gap{
     margin-top: 10px;
 }
-.card-height .card-body .form-group{
+.card .card-body .form-group{
     margin-bottom: 9px !important;
 }
 .fa-arrow-circle-o-up{
