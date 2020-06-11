@@ -1,0 +1,246 @@
+$color:rgb(248, 248, 248);
+$color1:purple;
+$color2:white;
+$color3:teal;
+$color4:whitesmoke;
+$color5:#958d8d;
+$color6:#d5d1d5;
+$color7:black;
+$width:100%;
+$width1:100px;
+$width2:300px;
+$width3:500px;
+$width4:225px;
+$width5:166px;
+$width6:80px;
+$width7:107px;
+$height:80px;
+$height1:20px;
+$height2:0px;
+$height3:50px;
+$height4:285px;
+$height5:100px;
+$text-transform:uppercase;
+$text-align:center;
+$text-decoration:none;
+$text-decoration1:underline;
+$font-size: 24px;
+$font-size1: 26px;
+$margin: auto;
+$margin1: 10px;
+$margin2: 9px;
+$list-style-type: none;
+$display: inline;
+$display1: block;
+$float: left;
+$imp:!important;
+$box-shadow: 2px 3px 8px 4px #d5d1d5;
+%message{
+    padding: 0px 10px;
+    float: $float;
+    display: $display1;
+    text-align: $text-align;
+    border: 1px solid $color7;
+    word-wrap: break-word;
+}
+%message1{
+    text-transform: $text-transform;
+}
+body{
+    background-color: $color;
+    .page{
+        .title{
+            background-color: $color1;
+            width: $width;
+            height: $height;
+            color: $color2;
+            @extend %message1;
+            text-align: $text-align;
+            padding: 5px;
+            a{
+                text-decoration: $text-decoration;
+            }
+            #cv{
+                text-decoration: $text-decoration1;
+                color: $color2;
+            }
+            div{
+                #name{
+                    font-size: $font-size;
+                    line-height: $height1;
+                    color: $color2;
+                }
+                #tag{
+                    font-size: 14px;
+                    line-height: $height2;
+                    color: $color2;
+                }
+            }
+        }
+        .nav{
+            width: $width;
+            height: $height3;
+            background-color: $color3;
+            margin: $margin;
+            .container{
+                ul{
+                    list-style-type:$list-style-type ;
+                    li{
+                        display: $display;
+                        a{
+                            color:$color2;
+                            float: $float;
+                            text-decoration: $text-decoration;
+                            font-size: 18px;
+                            @extend %message1;
+                            line-height: $height3;
+                            padding:0px 20px;
+                            text-align: $text-align;
+                            .fa-home{
+                                font-size: 25px $imp;
+                            }
+                        }
+                        a:hover{
+                            color: $color3;
+                            background-color: $color2;
+                        }
+                    }
+                }
+            }
+        }
+        .section{
+            margin-top: $margin1;
+            .row{
+                .col-4{
+                    max-width: $width3;
+                    .card{
+                        box-shadow: 2px 3px 8px 4px $color6;
+                        .card-img-top{
+                            width: $width4;
+                            height: $width4;
+                            margin-left: $margin;
+                            margin-right: $margin;
+                            display: $display1;
+                            border-radius: 50%;
+                            background-color: $color4;
+                        }
+                        .card-body{
+                            .card-title{
+                                @extend %message1;
+                            }
+                        }
+                    }
+                    .card{
+                        .card-body{
+                            .card-title{
+                                @extend %message1;
+                            }
+                        }
+                    }
+                    .card{
+                        .card-body{
+                            .form-group{
+                                margin-bottom: $margin2 $imp;
+                            }
+                        }
+                    }
+                }
+                .col-8{
+                    .card{
+                        box-shadow: 2px 3px 8px 4px $color6;
+                        .card-body{
+                            .card-title{
+                                @extend %message1;
+                            }
+                            .Educational{
+                                form{
+                                    table{
+                                        tr{
+                                            th{
+                                                @extend %message;
+                                                height: 50px;
+                                            }
+                                        }
+                                        tr{
+                                            td{
+                                                @extend %message;
+                                                height: 100px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .Internship{
+                                ul{
+                                    li{
+                                        a{
+                                            text-decoration: $text-decoration $imp;
+                                        }
+                                    }
+                                }
+                            }
+                            .project{
+                                ul{
+                                    li{
+                                        a{
+                                            text-decoration: $text-decoration $imp;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+        div{
+            a{
+                .fa-arrow-circle-o-up{
+                    position: fixed;
+                    top: 540px;
+                    left: 1270px;
+                    font-size: $height3 $imp;
+                    #scroll{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .footer{
+            width: $width;
+            height: $height3;
+            position: absolute;
+            display: $display1;
+            color: $color2;
+            background-color: $color7;
+            text-align: $text-align;
+            margin-top:$margin1;
+            font-size: $font-size;
+            line-height: $height3;
+            float: $float;
+            span{
+                padding: 0px 5px;
+            }
+            a{
+                color: $color2;
+                text-decoration: $text-decoration;
+            }
+        }
+    }
+}
+.card-gap{
+    margin-top: $margin1;
+}
+.edu-size,.intern-size,.project-size{
+    font-size: $font-size1;
+}
+.course,.board,.institution{
+    width: $width5;
+}
+.year{
+    width: $width6;
+}
+.cgpa{
+    width: $width7;
+}
