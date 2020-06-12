@@ -52,7 +52,6 @@ body{
 .fa-home{
     font-size: 25px !important;
 }
-
 .nav .container li a:hover{
     color: teal;
     background-color: white;
@@ -139,10 +138,4 @@ ul li a{
 .footer a{
     color: white;
     text-decoration: none;
-}
-.footer a li{
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    list-style-type: none;
 }
