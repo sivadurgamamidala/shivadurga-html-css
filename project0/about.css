@@ -447,7 +447,6 @@
         max-width: 450px;
         float: left;
     }
-
     .career,.Internship,.project,.Responsibility{
         text-align: justify;
     }
@@ -490,7 +489,7 @@
     .fa-arrow-circle-o-up{
         position: fixed;
         bottom: 25px;
-        right: 2px;
+        right: 10px;
         font-size: 30px !important;
     }
     #scroll{
@@ -666,7 +665,7 @@
     .fa-arrow-circle-o-up{
         position: fixed;
         bottom: 25px;
-        right: 2px;
+        right: 10px;
         font-size: 30px !important;
     }
     #scroll{
