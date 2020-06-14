@@ -627,7 +627,7 @@
   body .page div a .fa-arrow-circle-o-up {
     position: fixed;
     bottom: 25px;
-    right: 2px;
+    right: 10px;
     font-size: 30px !important;
   }
   body .page div a .fa-arrow-circle-o-up #scroll {
@@ -846,7 +846,7 @@
   body .page div a .fa-arrow-circle-o-up {
     position: fixed;
     bottom: 25px;
-    right: 2px;
+    right: 10px;
     font-size: 30px !important;
   }
   body .page div a .fa-arrow-circle-o-up #scroll {

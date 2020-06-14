@@ -145,7 +145,7 @@ $box-shadow: 2px 3px 8px 4px #d5d1d5;
 @mixin  arrow() {
     position: fixed;
     bottom: 25px;
-    right: 2px;
+    right: 10px;
     font-size: 30px $imp;
 }
 @mixin footer() {
